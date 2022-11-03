@@ -151,7 +151,7 @@ ul {
   line-height: calc(24 / 14);
   color: var(--discription-color);
 
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 /* --------------Чим ми займаємося------------------ */
@@ -163,11 +163,17 @@ ul {
   line-height: calc(42 / 36);
   text-align: center;
   color: var(--main-title-color);
+
+  margin-bottom: 50px;
+  padding-top: 94px;
 }
 
 .work-list {
 }
 
+.work-img {
+  padding-bottom: 94px;
+}
 .work-item {
 }
 
@@ -181,11 +187,19 @@ ul {
   line-height: calc(42 / 36);
   text-align: center;
   color: var(--main-title-color);
+
+  padding-top: 94px;
+  margin-bottom: 50px;
 }
 .team-list {
 }
 
 .team-item {
+  padding-bottom: 94px;
+}
+
+.team-photo {
+  margin-bottom: 30px;
 }
 
 .team-name {
@@ -193,6 +207,8 @@ ul {
   font-size: 16px;
   line-height: calc(19 / 16);
   color: var(--main-title-color);
+
+  margin-bottom: 10px;
 }
 
 .team-description {
@@ -214,6 +230,10 @@ ul {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
+
+  display: inline-block;
+  padding-top: 60px;
+  margin-bottom: 20px;
 }
 
 .footer-adress {
@@ -223,6 +243,7 @@ ul {
 .footer-adress-list {
 }
 .footer-adress-item {
+  margin-bottom: 9px;
 }
 
 .adress-link {
