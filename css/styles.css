@@ -12,6 +12,29 @@ body {
   color: var(--main-title-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  outline: 2px solid red;
+  margin: 0 auto;
+}
+
 .link {
   text-decoration: none;
 }
@@ -23,6 +46,7 @@ body {
 .button {
   font-family: inherit;
   cursor: pointer;
+  border-style: none;
 }
 /*------------------------header------------------------*/
 .header {
@@ -70,6 +94,7 @@ body {
 /* -----------------------HERO----------------------- */
 .hero {
   background-color: #2f303a;
+  text-align: center;
 }
 
 .hero-title {
@@ -80,6 +105,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-white-color);
+
+  margin-bottom: 40px;
 }
 
 .hero-button {
@@ -89,6 +116,11 @@ body {
   text-align: center;
   color: var(--text-white-color);
   background-color: var(--activ-color);
+
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  min-width: 216px;
 }
 /* ------------------------ОСОБЛІВОСТІ--------------------- */
 .peculiarities {
