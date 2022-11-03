@@ -33,6 +33,7 @@ ul {
   padding: 0 15px;
   outline: 2px solid red;
   margin: 0 auto;
+  background-color: cadetblue;
 }
 
 .link {
@@ -130,6 +131,7 @@ ul {
 }
 
 .peculiarities-list {
+  padding-top: 94px;
 }
 
 .peculiarities-item {
@@ -140,12 +142,16 @@ ul {
   line-height: calc(16 / 14);
   text-transform: uppercase;
   color: var(--main-title-color);
+
+  margin-bottom: 10px;
 }
 
 .peculiarities-text {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: var(--discription-color);
+
+  padding-bottom: 94px;
 }
 
 /* --------------Чим ми займаємося------------------ */
