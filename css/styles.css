@@ -28,12 +28,16 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+}
 .container {
   width: 1200px;
   padding: 0 15px;
-  outline: 2px solid red;
   margin: 0 auto;
-  background-color: cadetblue;
+
+  /* background-color: cadetblue;
+  outline: 2px solid red; */
 }
 
 .link {
