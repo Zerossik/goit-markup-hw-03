@@ -164,6 +164,8 @@ img {
 }
 
 .peculiarities-list {
+  display: flex;
+  gap: 30px;
   padding-top: 94px;
 }
 
