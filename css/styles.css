@@ -36,8 +36,8 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 
-  /* background-color: cadetblue;
-  outline: 2px solid red; */
+  background-color: cadetblue;
+  outline: 2px solid red;
 }
 
 .link {
@@ -328,6 +328,17 @@ img {
 }
 
 .portfolio-filter {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .portfolio-list-item {
@@ -341,6 +352,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   background-color: #f5f4fa;
+
+  padding: 6px 22px;
+  border-radius: 4px;
 }
 
 .filter-button:hover,
