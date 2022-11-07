@@ -36,8 +36,8 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 
-  background-color: cadetblue;
-  outline: 2px solid red;
+  /* background-color: cadetblue;
+  outline: 2px solid red; */
 }
 
 .link {
@@ -320,6 +320,10 @@ img {
 .portfolio {
 }
 
+.portfolio-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .portfolio-title {
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -331,13 +335,12 @@ img {
   display: flex;
   gap: 8px;
   justify-content: center;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
 .portfolio-list {
   display: flex;
-  gap: 30px;
+  gap: 29px;
   flex-wrap: wrap;
 }
 
@@ -367,6 +370,12 @@ img {
 }
 
 .portfolio-item {
+}
+
+.portfolio-item-container {
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 
 .portfolio-item-title {
