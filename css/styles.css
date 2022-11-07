@@ -57,6 +57,7 @@ img {
 .header {
   background-color: #ffffff;
   letter-spacing: 0.02em;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -106,6 +107,7 @@ img {
 .contact {
   display: flex;
   gap: 50px;
+  margin-left: auto;
 }
 
 .contact-item .link {
@@ -204,6 +206,9 @@ img {
 }
 
 .work-list {
+  display: flex;
+  gap: 30px;
+  width: calc ((100% - 30px) / 3);
 }
 
 .work-img {
@@ -227,14 +232,22 @@ img {
   margin-bottom: 50px;
 }
 .team-list {
+  display: flex;
+  gap: 30px;
 }
 
 .team-item {
-  padding-bottom: 94px;
+  margin-bottom: 94px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  background-color: #ffffff;
+  text-align: center;
 }
 
-.team-photo {
-  margin-bottom: 30px;
+.team-container {
+  padding: 30px 0;
 }
 
 .team-name {
@@ -265,10 +278,6 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
-
-  display: inline-block;
-  padding-top: 60px;
-  margin-bottom: 20px;
 }
 
 .footer-adress {
@@ -277,7 +286,7 @@ img {
 
 .footer-adress-list {
 }
-.footer-adress-item {
+.footer-adress-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
