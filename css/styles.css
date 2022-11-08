@@ -105,7 +105,7 @@ img {
   line-height: 1.14;
 }
 .header-item .link:hover,
-.header-item .link:focus {
+.header-item .link:focus,{
   color: var(--activ-color);
 }
 .contact {
@@ -133,6 +133,7 @@ img {
 .hero {
   background-color: #2f303a;
   text-align: center;
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -145,7 +146,6 @@ img {
   color: var(--text-white-color);
 
   margin-bottom: 40px;
-  padding-top: 200px;
 }
 
 .hero-button {
@@ -159,8 +159,6 @@ img {
   display: inline-block;
   padding: 10px 32px;
   border-radius: 4px;
-  min-width: 216px;
-  margin-bottom: 200px;
 }
 /* ------------------------ОСОБЛІВОСТІ--------------------- */
 .peculiarities {
@@ -190,12 +188,12 @@ img {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: var(--discription-color);
-
-  /* padding-bottom: 94px; */
+  width: 270px;
 }
 
 /* --------------Чим ми займаємося------------------ */
 .work {
+  padding-top: 0;
 }
 
 .work-title {
@@ -210,7 +208,6 @@ img {
 .work-list {
   display: flex;
   gap: 30px;
-  width: calc ((100% - 30px) / 3);
 }
 
 .work-img {
@@ -267,11 +264,9 @@ img {
 /* --------------------------FOOTER-------------------------- */
 .footer {
   background-color: #2f303a;
+  padding: 60px 0;
 }
 
-.footer-container {
-  padding: 60px 15px;
-}
 
 .footer-logo {
   font-family: 'Raleway', sans-serif;
