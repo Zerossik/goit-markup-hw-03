@@ -94,6 +94,7 @@ img {
   gap: 50px;
 }
 
+
 .header-item .link {
   display: block;
   padding: 32px 0;
@@ -105,9 +106,13 @@ img {
   line-height: 1.14;
 }
 .header-item .link:hover,
-.header-item .link:focus,{
+.header-item .link:focus {
   color: var(--activ-color);
 }
+.header-item .link:{
+  color:var(--activ-color);
+}
+
 .contact {
   display: flex;
   gap: 50px;
@@ -330,7 +335,7 @@ img {
 
 .portfolio-list {
   display: flex;
-  gap: 29px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
@@ -373,6 +378,8 @@ img {
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--main-title-color);
+
+  margin-bottom: 4px;
 }
 
 .portfolio-item-text {
