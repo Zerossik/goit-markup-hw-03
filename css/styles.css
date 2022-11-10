@@ -94,8 +94,6 @@ img {
   gap: 50px;
 }
 
-
-
 .header-item .link {
   display: block;
   padding: 32px 0;
@@ -179,6 +177,7 @@ img {
 }
 
 .peculiarities-item {
+  width: 270px;
 }
 
 .peculiarities-item-title {
@@ -194,7 +193,6 @@ img {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: var(--discription-color);
-  width: 270px;
 }
 
 /* --------------Чим ми займаємося------------------ */
@@ -272,7 +270,6 @@ img {
   background-color: #2f303a;
   padding: 60px 0;
 }
-
 
 .footer-logo {
   font-family: 'Raleway', sans-serif;
